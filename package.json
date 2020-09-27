@@ -1,0 +1,40 @@
+{
+  "name": "vue-singleton",
+  "version": "0.1.1",
+  "description": "vue 单例模式 method",
+  "main": "lib/vue-singleton.common.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vue-cli-service build --target lib --name vue-singleton --dest lib src/index.js"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^4.5.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/interest-group/vue-singleton.git"
+  },
+  "keywords": [
+    "vue",
+    "singleton"
+  ],
+  "author": "Brandon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/interest-group/vue-singleton/issues"
+  },
+  "homepage": "https://github.com/interest-group/vue-singleton#readme",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "files": [
+    "lib",
+    "src",
+    ".gitignore",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ]
+}
