@@ -1,14 +1,18 @@
 {
   "name": "vue-singleton",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "description": "vue 单例模式 method",
-  "main": "lib/vue-singleton.common.js",
+  "main": "./cjs/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "vue-cli-service build --target lib --name vue-singleton --dest lib src/index.js"
+    "build": "npx babel esm --out-dir cjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "@vue/cli-service": "^4.5.6"
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-transform-arrow-functions": "^7.12.1",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.12.11"
   },
   "repository": {
     "type": "git",
@@ -23,15 +27,13 @@
   "bugs": {
     "url": "https://github.com/interest-group/vue-singleton/issues"
   },
-  "homepage": "https://github.com/interest-group/vue-singleton#readme",
   "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
+    "> 0.25%, not dead"
   ],
+  "homepage": "https://github.com/interest-group/vue-singleton#readme",
   "files": [
-    "lib",
-    "src",
+    "cjs",
+    "esm",
     ".gitignore",
     "LICENSE",
     "package.json",
