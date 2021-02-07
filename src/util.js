@@ -20,3 +20,7 @@ export function splice (array, start, count) {
   array.length = Math.max(start, array.length - length)
   return array
 }
+
+function test() {
+
+}
