@@ -4,7 +4,7 @@ const Promise = Promise || global.Promise
 
 const prevent = 'SINGLETON_PREVENT'
 
-function singleton (callback, feedback) {
+function singleton(callback, feedback) {
   const instance = new Instance()
   return function () {
     const context = this
