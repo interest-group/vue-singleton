@@ -1,7 +1,11 @@
 import { findIndex, splice } from './util'
 
 function Instance() {
-  this.running = []
+  this.running
+    =
+    [];
+
+
 }
 
 Instance.prototype = {
