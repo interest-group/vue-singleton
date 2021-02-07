@@ -33,4 +33,6 @@ function singleton (callback, feedback) {
 
 singleton.prevent = prevent
 
+
+
 export default singleton
