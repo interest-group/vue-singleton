@@ -21,6 +21,12 @@
     "webpack": "^5.21.1",
     "webpack-cli": "^4.5.0"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "eslint src --fix --ext .js",
+      "commit-msg": "commitlint -e"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/interest-group/vue-singleton.git"
