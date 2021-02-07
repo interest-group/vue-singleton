@@ -1,6 +1,6 @@
 {
   "name": "vue-singleton",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "vue 单例模式 method",
   "main": "./dist/index.js",
   "scripts": {
